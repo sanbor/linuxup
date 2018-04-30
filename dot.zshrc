@@ -2,7 +2,7 @@
 
 autoload -Uz promptinit
 promptinit
-#prompt adam1
+prompt adam1
 
 setopt histignorealldups sharehistory
 
@@ -71,7 +71,7 @@ alias d="docker-compose"
 
 # Show current branch in current submodule
 setopt prompt_subst
-source $(brew --prefix)/etc/bash_completion.d/git-prompt
+source /etc/bash_completion.d/git-prompt
 export RPROMPT=$'$(__git_ps1 "%s")'
 
 # Export
