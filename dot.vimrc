@@ -45,3 +45,4 @@ set expandtab
 set hidden
 " Delete freedom in insert mode
 set backspace=2
+set mouse=
